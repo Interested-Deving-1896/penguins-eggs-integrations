@@ -86,5 +86,5 @@ See [DOCS/accessibility.md](https://github.com/Interested-Deving-1896/penguins-e
 ## License
 
 <!-- AI:start:license -->
-<!-- License not detected — add a LICENSE file to this repo. -->
+[MIT](https://github.com/Interested-Deving-1896/penguins-eggs-integrations/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
 <!-- AI:end:license -->
