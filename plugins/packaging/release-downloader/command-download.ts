@@ -35,7 +35,7 @@ export default class Download extends Command {
     const { flags } = await this.parse(Download)
     Utils.titles(this.id + ' ' + this.argv)
 
-    const repo = 'pieroproietti/penguins-eggs'
+    const repo = 'Interested-Deving-1896/penguins-eggs'
     const apiUrl = `https://api.github.com/repos/${repo}/releases`
 
     if (flags.list) {
