@@ -13,7 +13,7 @@ export default class WardrobeMountCmd extends Command {
   static description = 'mount a wardrobe repo with auto-commit (via gitfs)'
 
   static examples = [
-    'eggs wardrobe mount https://github.com/pieroproietti/penguins-wardrobe /mnt/wardrobe',
+    'eggs wardrobe mount https://github.com/Interested-Deving-1896/penguins-wardrobe /mnt/wardrobe',
     'eggs wardrobe mount --branch devel https://github.com/user/wardrobe /mnt/wardrobe',
     'eggs wardrobe unmount /mnt/wardrobe',
     'eggs wardrobe mounts',
