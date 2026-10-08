@@ -172,7 +172,7 @@ Purpose: Simplify eggs installation and app distribution within eggs ISOs.
 
 | Project | Role | Integration Point |
 |---|---|---|
-| dominiksalvet/gitpack | Git-based package manager | Install eggs via `gitpack install pieroproietti/penguins-eggs` |
+| dominiksalvet/gitpack | Git-based package manager | Install eggs via `gitpack install Interested-Deving-1896/penguins-eggs` |
 | RaduAnPlay/Github-paser | Download GitHub releases (.deb/.rpm/.appimage) | Lightweight eggs release downloader |
 | Alex313031/github-directory-downloader | Download subdirectories from GitHub | Download specific wardrobe directories without full clone |
 
@@ -180,10 +180,10 @@ Purpose: Simplify eggs installation and app distribution within eggs ISOs.
 
 ```
 # Install eggs itself via gitpack
-gitpack install pieroproietti/penguins-eggs
+gitpack install Interested-Deving-1896/penguins-eggs
 
 # Download latest eggs release
-github-parser.sh pieroproietti/penguins-eggs
+github-parser.sh Interested-Deving-1896/penguins-eggs
 
 # Download just a specific wardrobe costume
 eggs wardrobe get <repo-url>/path/to/costume
