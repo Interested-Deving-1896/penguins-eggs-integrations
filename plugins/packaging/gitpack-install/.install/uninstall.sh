@@ -1,6 +1,6 @@
 #!/bin/sh
 # gitpack uninstall script for penguins-eggs
-# Enables: gitpack uninstall pieroproietti/penguins-eggs
+# Enables: gitpack uninstall Interested-Deving-1896/penguins-eggs
 
 set -eu
 
