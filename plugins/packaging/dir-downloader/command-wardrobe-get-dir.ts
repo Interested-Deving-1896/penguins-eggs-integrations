@@ -16,8 +16,8 @@ export default class WardrobeGetDir extends Command {
   static description = 'download a specific wardrobe directory without cloning the full repo'
 
   static examples = [
-    'eggs wardrobe get-dir https://github.com/pieroproietti/penguins-wardrobe/tree/main/costumes/colibri',
-    'eggs wardrobe get-dir --repo https://github.com/pieroproietti/penguins-wardrobe --path costumes/colibri --dest ~/.wardrobe',
+    'eggs wardrobe get-dir https://github.com/Interested-Deving-1896/penguins-wardrobe/tree/main/costumes/colibri',
+    'eggs wardrobe get-dir --repo https://github.com/Interested-Deving-1896/penguins-wardrobe --path costumes/colibri --dest ~/.wardrobe',
   ]
 
   static args = {
