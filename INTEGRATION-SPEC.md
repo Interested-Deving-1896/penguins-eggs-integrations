@@ -53,7 +53,7 @@ eggs produce --lfs --remote myremote  # specify remote
 
 ### 1.2 GitPack Support
 
-**What:** Allow installing eggs via `gitpack install pieroproietti/penguins-eggs`.
+**What:** Allow installing eggs via `gitpack install Interested-Deving-1896/penguins-eggs`.
 
 **Dependencies:** gitpack
 
@@ -69,9 +69,9 @@ eggs produce --lfs --remote myremote  # specify remote
 3. `uninstall.sh` cleans up
 
 **Acceptance:**
-- [ ] `gitpack install pieroproietti/penguins-eggs` installs eggs
-- [ ] `gitpack uninstall pieroproietti/penguins-eggs` removes eggs
-- [ ] `gitpack update pieroproietti/penguins-eggs` updates to latest
+- [ ] `gitpack install Interested-Deving-1896/penguins-eggs` installs eggs
+- [ ] `gitpack uninstall Interested-Deving-1896/penguins-eggs` removes eggs
+- [ ] `gitpack update Interested-Deving-1896/penguins-eggs` updates to latest
 
 ---
 
@@ -82,7 +82,7 @@ eggs produce --lfs --remote myremote  # specify remote
 **Dependencies:** Github-paser (github-parser.sh)
 
 **Implementation:**
-1. Document usage: `github-parser.sh pieroproietti/penguins-eggs`
+1. Document usage: `github-parser.sh Interested-Deving-1896/penguins-eggs`
 2. Optionally bundle github-parser.sh in eggs repo under `scripts/`
 3. Add `eggs download` command that wraps the parser
 
@@ -111,7 +111,7 @@ eggs download --version 10.0.0  # specific version
 
 **CLI:**
 ```bash
-eggs wardrobe get https://github.com/pieroproietti/penguins-wardrobe/tree/main/costumes/colibri
+eggs wardrobe get https://github.com/Interested-Deving-1896/penguins-wardrobe/tree/main/costumes/colibri
 eggs wardrobe get <repo-url>/costumes/<name> --dest /path/to/local/wardrobe
 ```
 
