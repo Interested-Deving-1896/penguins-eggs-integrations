@@ -10,7 +10,7 @@
 
 set -euo pipefail
 
-REPO="pieroproietti/penguins-eggs"
+REPO="Interested-Deving-1896/penguins-eggs"
 API_URL="https://api.github.com/repos/${REPO}/releases"
 DEST_DIR="${DEST_DIR:-.}"
 
