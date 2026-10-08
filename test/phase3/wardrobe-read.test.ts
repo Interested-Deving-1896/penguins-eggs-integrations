@@ -33,7 +33,7 @@ describe('WardrobeRead', () => {
       ]))
       const reader = new WardrobeRead(mock.exec)
 
-      const costumes = await reader.listCostumes('https://github.com/pieroproietti/penguins-wardrobe')
+      const costumes = await reader.listCostumes('https://github.com/Interested-Deving-1896/penguins-wardrobe')
 
       expect(costumes).to.have.lengthOf(2)
       expect(costumes).to.include('colibri')
