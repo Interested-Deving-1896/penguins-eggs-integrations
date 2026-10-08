@@ -25,11 +25,11 @@ describe('DirDownloader', () => {
   describe('parseGitHubUrl()', () => {
     it('should parse full GitHub URL with tree path', () => {
       const result = DirDownloader.parseGitHubUrl(
-        'https://github.com/pieroproietti/penguins-wardrobe/tree/main/costumes/colibri'
+        'https://github.com/Interested-Deving-1896/penguins-wardrobe/tree/main/costumes/colibri'
       )
 
       expect(result).to.not.be.null
-      expect(result!.owner).to.equal('pieroproietti')
+      expect(result!.owner).to.equal('Interested-Deving-1896')
       expect(result!.repo).to.equal('penguins-wardrobe')
       expect(result!.branch).to.equal('main')
       expect(result!.dirPath).to.equal('costumes/colibri')
@@ -37,11 +37,11 @@ describe('DirDownloader', () => {
 
     it('should parse URL without tree path', () => {
       const result = DirDownloader.parseGitHubUrl(
-        'https://github.com/pieroproietti/penguins-wardrobe'
+        'https://github.com/Interested-Deving-1896/penguins-wardrobe'
       )
 
       expect(result).to.not.be.null
-      expect(result!.owner).to.equal('pieroproietti')
+      expect(result!.owner).to.equal('Interested-Deving-1896')
       expect(result!.repo).to.equal('penguins-wardrobe')
       expect(result!.branch).to.equal('main')  // default
       expect(result!.dirPath).to.equal('')
